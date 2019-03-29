@@ -1,8 +1,8 @@
 #!/bin/bash
 #Sysupdate
-sudo apt-get update 
+apt-get update 
 #Python
-sudo apt-get install python
+apt-get install python
 #gmail
 git clone https://github.com/Ha3MrX/Gemail-Hack.git
 #facebook
@@ -19,13 +19,13 @@ git clone https://github.com/thelinuxchoice/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 cd ..
 #Twitter
 git clone https://github.com/thelinuxchoice/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 cd ..
 
